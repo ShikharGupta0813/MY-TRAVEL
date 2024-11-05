@@ -1,0 +1,2 @@
+A comprehensive, cloud-based platform that enables users to explore and select travel destinations with detailed listings and reviews, providing seamless data handling and quick access to destination information and booking options.
+Developed a responsive MERN web application enabling users to explore, review, and select travel destinations, resulting in a 30% faster load time and increased user engagement by 45%
