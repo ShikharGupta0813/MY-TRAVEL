@@ -1,0 +1,67 @@
+/* Ensure the entire page takes up at least 100% of the viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Make the body a flex container */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content wrapper should take up all available space */
+.content-wrapper {
+  flex: 1;
+}
+
+/* Basic styling for the footer */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 150px;
+  /* position:static; */
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+}
+
+.footer-section a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}

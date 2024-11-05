@@ -1,0 +1,30 @@
+<% layout("boilerplate") -%>
+<body class="all" style="margin-top: 0px !important;">
+    <div class="container ">
+        <div class="card text-center">
+            <div class="card-body">
+                <h3 class="card-title">Listings-:</h3>
+                <div class="mb-4">
+                    <img class="img-fluid" style="width: 350px; height: 250px;" src="<%=info.image%>">
+                </div>
+                <h4 class="card-subtitle mb-2 text-muted"><%=info._id%></h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Title: <%=info.title%></li>
+                    <li class="list-group-item">Description: <%=info.description%></li>
+                    <!-- <li class="list-group-item"> <img src="<%=info.img%>"></li> -->
+                    <li class="list-group-item">Price: &#8377;<%=info.price.toLocaleString("en-in")%></li>
+                    <li class="list-group-item">Location: <%=info.location%></li>
+                    <li class="list-group-item">Country: <%=info.country%></li>
+                </ul>
+                <div class="mt-4">
+                    <form action="/listings/edit/<%=info._id%>" method="get" class="d-inline">
+                        <button class="btn btn-primary">EDIT!!</button>
+                    </form>
+                    <form action="/listings/<%=info._id%>?_method=delete" method="post" class="d-inline">
+                        <button class="btn btn-danger">DELETE!!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

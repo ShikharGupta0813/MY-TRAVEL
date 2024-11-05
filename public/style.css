@@ -1,0 +1,44 @@
+/* body{
+    background-color: pink;
+} */
+.navbar-brand{
+    color: rgb(228, 16, 16);
+}
+.navbar{
+    size: 19rem;
+    background-color: white;
+    margin-bottom: 0px !important;
+}
+.nav-link{
+    color: #222222!important;/*to overwrite bootstrap styling*/
+}
+.card{
+    border: none !important; 
+    margin-right: 0px;
+    margin-bottom: 2 rem;
+}
+.container{
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    padding:0px !important;
+    margin: 0px !important;
+}
+.card-text{
+    margin: 0px !important;
+    text-decoration: none !important;
+}
+.anchor{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity:0;
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: white;
+}

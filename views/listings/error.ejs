@@ -1,0 +1,12 @@
+<% layout ("boilerplate") -%>
+<% if (err) { %>
+  <div class="alert alert-danger" role="alert">
+    <%= err.message %>
+    <br>
+    &nbsp;<%= err.statusCode%>
+    <p>Hello This is an Error 
+        Please Give Us Some Time!!
+    </p>
+  </div>
+<% } %>
+
